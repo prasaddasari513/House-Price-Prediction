@@ -19,7 +19,7 @@ pipeline {
         stage('Tag Docker Image') {
             steps {
                 echo "Tagging Docker image..."
-                sh 'docker tag myimg ${IMAGE_NAME}'
+                sh 'docker tag myimage ${IMAGE_NAME}'
             }
         }
 
