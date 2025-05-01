@@ -13,7 +13,6 @@ from rich import print #rich print allows for colored and styled output
 import numpy as np
 
 
-
 # Load data
 data = pd.read_csv("Train.csv")
 test_data = pd.read_csv("Test.csv")
